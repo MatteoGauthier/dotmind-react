@@ -1,25 +1,25 @@
 export type User = {
-	id: string
-	username: string
-	picture: string
-	favorite?: boolean
-}
+  id: string;
+  username: string;
+  picture: string;
+  favorite?: boolean;
+};
 export type Error = {
-	message: string
-}
+  message: string;
+};
 
 export type LayoutProps = {
-	children: React.ReactNode
-	centered?: boolean
-}
+  children: React.ReactNode;
+  centered?: boolean;
+};
 
 export interface UserCardProps {
-	user: {
-		id: string
-		username: string
-		picture: string
-		favorite?: boolean
-	}
-	favorite: boolean
-	onClick: () => void
+  user: {
+    id: string;
+    username: string;
+    picture: string;
+    favorite?: boolean;
+  };
+  favorite: boolean;
+  onClick: () => void;
 }
