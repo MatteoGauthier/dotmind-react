@@ -32,6 +32,7 @@ code {
 	padding: 0.5rem 0.5rem;
 	box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
 	gap: 0.5rem;
+	cursor: pointer;
 }
 
 .card-body {
@@ -42,7 +43,7 @@ code {
 }
 
 .card-favorite {
-	background:blue;
+	background:rgb(173, 173, 255);
 }
 
 .card-body span {
